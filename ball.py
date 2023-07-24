@@ -9,7 +9,7 @@ class Ball(Turtle):
         self.shape('images/fireball.gif')
         self.penup()
         self.color(BALL_COLOUR)
-        self.move_speed = 20
+        self.move_speed = 2
         self.x_move = self.move_speed
         self.y_move = self.move_speed
 
